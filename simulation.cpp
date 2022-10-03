@@ -271,9 +271,13 @@ class Passengers: public Humans{
             cout << "the passengers are in very poor health\n";
         }
 
-        if(hapiness<20){
+        if(hapiness>=20 && hapiness<50){
+            yellow();
+            out << "the passengers have grown restless";
+        }
+        else if(hapiness<20){
             red();
-            cout << "the passengers have grown restless and begun to revolt\n";
+            cout << "the passengers have begun to revolt\n";
         }
     }
 };

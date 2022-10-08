@@ -1,4 +1,4 @@
-#OOP Lab 3, Inheritance
+# OOP Lab 3, Inheritance
 
 ![diagram](inh_diagram.png)
 
